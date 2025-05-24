@@ -525,13 +525,6 @@ footer .color-change-cloud {
   margin-bottom: 16px;
 }
 
-.social-box-footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  align-items: center;
-}
-
 .social-list-footer {
   display: flex;
   gap: 16px;
