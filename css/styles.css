@@ -152,8 +152,12 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--navy-blue-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.active-link {
+  color: var(--ocean-color);
 }
 
 .nav-link::after {
@@ -235,7 +239,6 @@ img {
   min-width: 169px;
   height: 56px;
   padding: 10px;
-  border: 1px solid #000;
   border-radius: 4px;
   font-weight: 500;
   line-height: 1.5;
@@ -271,9 +274,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 23px;
-  padding-bottom: 23px;
   margin-bottom: 8px;
+  height: 112px;
   width: 264px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
@@ -329,11 +331,6 @@ img {
   background-color: var(--white-color);
 }
 
-.teamwork-item:hover .social-link,
-.teamwork-item:focus .social-link {
-  background-color: var(--ocean-color);
-}
-
 .teamwork-box {
   padding: 32px 0;
 }
@@ -378,14 +375,9 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.teamwork-item:hover .social-link,
-.teamwork-item:focus .social-link {
-  background-color: var(--ocean-color);
-}
-
 .social-link:hover,
 .social-link:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean-color);
 }
 
 .social-svg {
